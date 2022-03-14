@@ -1,0 +1,19 @@
+/*!
+ * @author Mohamed Muntasir
+ * @link https://github.com/devmotheg
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@layer base {
+	body {
+		@apply min-w-[400px];
+	}
+
+	#root {
+		@apply min-h-screen;
+	}
+}
